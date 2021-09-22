@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+.heading{
+    font-size: xx-large;
+    color: rgb(83, 18, 18);
+}
+button{
+    font-weight: 500px;
+    font-size: 18px;
+    color:#080808;
+    cursor: pointer;
+    padding: 9px 20px;
+    background: rgb(236, 240, 39);
+    border: 2px solid black;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background: rgb(115, 228, 80);
+
+}
+.App{
+    background-image: url("https://papers.co/wallpaper/papers.co-sa52-blurred-white-blur-wallpaper-35-3840x2160-4k-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+
+}
+
+.logo{
+    cursor:pointer;
+    width: 20%;
+    margin-left: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    flex-wrap: wrap;
+    margin:30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid #000;
+    margin:20px;
+    padding:10px;
+    background-color:rgb(50, 175, 169);
+    
+    box-shadow: 0 0 10px #000;
+}
+.card:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card-top{
+    width:100%;
+}
+.card-img{
+    height:250px;
+    width:100%;
+}
+.card-bottom{
+    color:rgb(224, 228, 11);
+}
+
+
+
+
+
